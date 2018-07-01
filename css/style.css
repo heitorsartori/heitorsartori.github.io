@@ -1,0 +1,176 @@
+.menu-principal{
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	height: auto;
+}
+
+.border-red{
+	border: 1px solid red;
+}
+
+body{
+	min-height: 1500px;
+	background:#333;
+}
+
+.align-center{
+	text-align: center;
+}
+
+
+.f-s-40{
+	font-size: 40px; 
+}
+
+.f-s-20{
+	font-size: 20px; 
+}
+
+.color-gren{
+	color: green;
+}
+
+.menu-interno{
+	min-height: 600px;
+}
+
+.menu-interno-entrada{
+	height: 35px;
+}
+
+ input[type=range][orient=vertical]
+{
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical; /* WebKit */
+    width: 8px;
+    height: 175px;
+    padding: 0 25px;
+}
+
+.menu-lateral{
+	min-height: 80px;
+	/* margin-top: 20px; */
+	/* position: fixed; */
+}
+
+.menu-lateral-entrada{
+	
+margin-top:  30px;
+	
+padding-left:  0;
+	
+padding-right: 0;
+}
+
+.menu-entrada{
+	min-height: 80px;
+	/* margin-top: 20px; */
+	position: fixed;	
+}
+
+.menu-interno-lateral{
+height: 100px
+}
+
+.menu-interno-lateral2{
+	height: 160px	
+}
+
+.display-inline{
+	display: inline-block;
+}
+
+
+.range-0{
+	width: 100%
+}
+
+.range-resultado{
+	border: 1px solid black;
+	padding: 4px;
+}
+
+.aux{
+margin-top: 80px;
+min-height: 450px;	
+/*height:  auto;*/
+}
+
+.fundo-resultado{
+ /*background-image: url("../images/Cascavel_-_crotalus_durissus.jpg");*/
+ background-size: cover;
+ background-position: center;
+}
+.aux2{
+	height: auto;
+}
+
+.no-m-b{
+	margin-bottom: 0;
+}
+
+.m-b-3{
+	margin-bottom: 3px;
+}
+
+
+.m-t-10{
+	margin-top: 10px;
+}
+
+.m-t-30{
+	margin-top: 30px;
+}
+
+.m-b-30{
+	margin-bottom:30px;
+}
+
+h1{
+	color:#fff;
+	text-align: center;
+}
+
+.txtSelecao{
+	padding-top: 50%;
+}
+
+.f-left{
+	float: left;
+}
+
+.f-right{
+	float:right;
+}
+
+.clear-both{
+	clear: both;
+}
+
+.nome_entrada{
+	font-family: arial;
+	font-size: 15px;
+}
+
+.aux3{
+	width: 75%!important;
+	display: inline-block!important;
+	margin: 0 0 0 10px;
+}
+
+.resultado{
+	margin-left:20px;  
+	border:1px solid black;
+	border-radius:100%;
+	padding:3px;
+	margin-top:-4px;
+}
+
+.h-450{
+	height:  450px;
+}
+
+.h-650{
+	min-height:  650px;
+}

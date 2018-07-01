@@ -1,0 +1,80 @@
+
+
+   
+  <script>
+
+
+
+
+ function desligar() {
+   // var element = document.getElementById("teste");
+   var element = document.getElementsByClassName("liga-desliga");
+   // element[0].classList.add("display-none");
+   // ligado = true;
+
+   // if (ligado == true){
+
+    fLen = element.length;
+    for (l = 0; l < fLen; l++) {
+      element[l].classList.toggle("desligar");
+    // element[j].disabled = true;
+    } 
+
+
+
+    document.getElementById("eu").classList.toggle("teste2");
+    verificador = verificador != true;
+    // bool = bool != true;
+    //}
+    // else{
+    //   fLen = element.length;
+    //   for (l = 0; l < fLen; l++) {
+    //     element[l].classList.remove("desligar");
+    // // element[j].disabled = true;
+    // } 
+    // }
+
+
+   
+}
+
+function desligar2( ) {
+
+   document.getElementById("eu").classList.toggle("teste3");
+   
+
+   var elements = document.getElementsByClassName("liga-desliga");
+   // element[0].classList.add("display-none");
+   // ligado = true;
+
+   // if (ligado == true){
+
+    fLen = elements.length;
+    for (l = 0; l < fLen; l++) {
+      elements[l].classList.toggle("teste3");
+    // element[j].disabled = true;
+    } 
+
+
+
+    // document.getElementById("eu").classList.toggle("teste3");
+    // verificador = verificador != true;
+ 
+
+ // document.getElementById("body").classList.toggle("teste3");
+}
+
+
+function onOf_saida() {
+     var element = document.getElementById("btn-onOf_saida");
+     element.classList.toggle("onOf-saida");
+ }
+
+function onOf_retorno() {
+    var element = document.getElementById("btn-onOf_retorno");
+    element.classList.toggle("glyphicon-volume-off");
+    element.classList.toggle("glyphicon-volume-up");
+}
+</script>
+      
+      
